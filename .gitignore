@@ -1,0 +1,30 @@
+# CMake build outputs
+/build/
+/cmake-build-*/
+/CMakeCache.txt
+/CMakeFiles/
+/Makefile
+/build.ninja
+/.ninja_deps
+/.ninja_log
+/cmake_install.cmake
+/install_manifest.txt
+/compile_commands.json
+*.o
+
+# Local packaging and tool artifacts
+/packaging/
+/.aws/
+__pycache__/
+*.py[cod]
+*.png.tmp
+
+# Local IPSW downloads, extracted Apple assets, and research
+/assets/
+/research/
+/_mac_extract/
+*.ipsw
+*.ipsw.part
+*.metallib
+*.program
+*.arm64e
